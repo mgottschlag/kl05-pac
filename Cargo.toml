@@ -1,0 +1,28 @@
+[package]
+name = "kl05-pac"
+version = "0.0.1"
+authors = ["Mathias Gottschlag <mgottschlag@gmail.com>"]
+categories = ["embedded"]
+description = "Peripheral access crate for KL05 microcontrollers"
+keywords = [
+	"no-std",
+	"arm",
+	"cortex-m",
+	"nxp",
+	"kinetis",
+	"svd2rust"
+]
+license = "BSD-3-Clause"
+repository = "https://github.com/mgottschlag/kl05-pac"
+edition = "2018"
+
+[dependencies]
+cortex-m = "0.7.3"
+vcell = "0.1.0"
+
+[dependencies.cortex-m-rt]
+optional = true
+version = ">=0.6.15,<0.8"
+
+[features]
+rt = ["cortex-m-rt/device"]

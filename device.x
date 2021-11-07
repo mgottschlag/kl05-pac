@@ -1,0 +1,24 @@
+PROVIDE(DMA0 = DefaultHandler);
+PROVIDE(DMA1 = DefaultHandler);
+PROVIDE(DMA2 = DefaultHandler);
+PROVIDE(DMA3 = DefaultHandler);
+PROVIDE(FTFA = DefaultHandler);
+PROVIDE(LVD_LVW = DefaultHandler);
+PROVIDE(LLW = DefaultHandler);
+PROVIDE(I2C0 = DefaultHandler);
+PROVIDE(SPI0 = DefaultHandler);
+PROVIDE(UART0 = DefaultHandler);
+PROVIDE(ADC0 = DefaultHandler);
+PROVIDE(CMP0 = DefaultHandler);
+PROVIDE(TPM0 = DefaultHandler);
+PROVIDE(TPM1 = DefaultHandler);
+PROVIDE(RTC = DefaultHandler);
+PROVIDE(RTC_SECONDS = DefaultHandler);
+PROVIDE(PIT = DefaultHandler);
+PROVIDE(DAC0 = DefaultHandler);
+PROVIDE(TSI0 = DefaultHandler);
+PROVIDE(MCG = DefaultHandler);
+PROVIDE(LPTMR0 = DefaultHandler);
+PROVIDE(PORTA = DefaultHandler);
+PROVIDE(PORTB = DefaultHandler);
+
